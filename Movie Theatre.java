@@ -38,4 +38,37 @@ public class Program {
 
 
 
+/* Taking this problem statement further...
+Display the status of each seat:
 
+
+
+import java.util.Scanner;
+
+public class Program {
+    
+    public static void main(String[] args) {
+        int[][] seats = {
+        {0, 0, 0, 1, 1, 1, 0, 0, 1, 1},
+        {1, 1, 0, 1, 0, 1, 1, 0, 0, 0},
+        {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
+        {0, 0, 0, 1, 1, 1, 1, 0, 0, 0},
+        {0, 1, 1, 1, 0, 0, 0, 1, 1, 1}
+        };
+        for (int row=0;row<seats.length; row++)
+        {
+            for (int col=0;col<seats[row].length; col++)
+            {
+               if(seats[row][col]==0)
+                    System.out.print(" Free ");
+                else
+                    System.out.print(" Sold "); 
+            }
+            System.out.println();
+        }
+    }
+
+}
+
+
+*/
